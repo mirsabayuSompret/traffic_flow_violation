@@ -219,3 +219,4 @@ __marimo__/
 
 # Output artefak deteksi pelanggaran (video annotated + CSV log)
 output/
+*.mp4

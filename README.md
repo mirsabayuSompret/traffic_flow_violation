@@ -1,11 +1,13 @@
-group name : 
+group name :
+
 - mirsa bayu prasetyo
 - gregorius jovi
 - nur ilham iskandar
 - m. amridhan mahdi
 - muhana
 
-## Description 
+## Description
+
 implementation of template matching algorithm for visual tracking of car in the street.
 car detection using YOLO and then it would be tracked using template matching algorithm
 
@@ -13,7 +15,7 @@ car detection using YOLO and then it would be tracked using template matching al
 
 ## Tahap 1 — Deteksi Counterflow (Classic CV, tanpa Deep Learning)
 
-Pipeline klasik untuk mendeteksi pelanggaran *counterflow* (kendaraan melawan arah):
+Pipeline klasik untuk mendeteksi pelanggaran _counterflow_ (kendaraan melawan arah):
 
 ```
 Frame  ->  MOG2 Background Subtraction
@@ -38,6 +40,16 @@ output/             # annotated.mp4 + violations.csv (di-gitignore)
 ```
 
 ### Instalasi
+
+## Download video dari link ini
+
+```
+https://www.kaggle.com/datasets/shawon10/road-traffic-video-monitoring
+```
+
+simpan vide kedalam root folder, ubah namanya menjdai traffic.mp4
+
+## buat virtual env dan install requirement
 
 ```bash
 python3 -m venv venv
