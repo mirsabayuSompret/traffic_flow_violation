@@ -2,9 +2,9 @@ group name :
 
 - Mirsa Bayu Prasetyo - 25/562355/PPA/07062
 - Gregorius Bugen Jovi Sitindaon - 25/573749/PPA/07222
-- Nur Ilham Iskandar
-- M. Amridhan Mahdi
-- Muhana Fawwazy Ilyas
+- Nur Ilham Iskandar - 25/572104/PPA/07185
+- M. Amridhan Mahdi - 25/575124/PPA/07270
+- Muhana Fawwazy Ilyas -  25/573144/PPA/07210
 
   ---
 
