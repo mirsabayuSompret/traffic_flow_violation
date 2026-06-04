@@ -1,16 +1,23 @@
 group name :
 
-- Mirsa Bayu Prasetyo
-- Gregorius Bugen Jovi Sitindaon
-- Nur Ilham Iskandar
-- M. Amridhan Mahdi
-- Muhana Fawwazy Ilyas
+- Mirsa Bayu Prasetyo - 25/562355/PPA/07062
+- Gregorius Bugen Jovi Sitindaon - 25/573749/PPA/07222
+- Nur Ilham Iskandar - 25/572104/PPA/07185
+- M. Amridhan Mahdi - 25/575124/PPA/07270
+- Muhana Fawwazy Ilyas -  25/573144/PPA/07210
+
+  ---
 
 # Title
 Traffic Flow Violation Detection Using Object Detection using Gaussian Mixture Model
 
 ## Abstract
 Traffic surveillance and automated violation detection have become critical components of intelligent transportation systems. Manual monitoring of road traffic is resource-intensive and prone to human error, particularly at complex intersections in high-density urban environments. This paper presents a traffic flow violation detection system designed to identify counterflow incidents, defined as vehicles traveling against the designated direction of a road lane. The system employs a classical computer vision pipeline comprising three main stages: (1) Gaussian Mixture Model-based background subtraction (MOG2) for vehicle blob detection from video frames; (2) a centroid-based greedy nearest-neighbor tracker for maintaining consistent vehicle identities across frames; and (3) cosine similarity analysis between the computed vehicle motion vector and a predefined lane direction vector, combined with a streak-based confirmation mechanism to reduce false positives. The system was evaluated on six video scenarios from the Traffic India Intersection dataset, covering daytime and nighttime conditions, accident and normal traffic situations, high-density uncontrolled intersections, and regulated toll plazas. Experimental results, recorded as CSV violation logs and annotated video outputs, demonstrate that the system successfully detects counterflow violations across all tested conditions. The traffic_day_1 scenario yielded the highest detection count at 23 unique object IDs, while nighttime scenarios showed detections as early as frame 66. The results indicate that the classical approach is viable for counterflow detection while highlighting limitations in complex occlusion and multi-object tracking scenarios.
+
+---
+## Note
+- folder `Document` berisi file slide presentasi dan laporan
+- folder `Assets` berisi file dataset dan output dalam format file terkompresi hal ini dilakukan karena github tidak dapat menampung file yang besarnya lebih dari 100 mb, oleh karena itu file data dan output kami kompresi terlebih dahulu. sehingga diperlukan proses pemulihan file terlebih dahulu
 
 ---
 
