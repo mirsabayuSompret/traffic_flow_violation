@@ -24,11 +24,11 @@ import cv2
 
 
 # Ambang konfigurasi - bisa diatur dari main bila diperlukan
-COS_THRESHOLD_COUNTERFLOW: float = -0.3   # cos(theta) < -0.3 => sudut > ~108 derajat
+COS_THRESHOLD_COUNTERFLOW: float = -0.9   # cos(theta) < -0.9 => sudut > ~108 derajat
 COS_THRESHOLD_NORMAL: float = 0.3         # cos(theta) > +0.3 => searah cukup jelas
 MIN_PERGERAKAN_PX: float = 2.0            # |v| minimum agar dianggap "bergerak"
 STREAK_KONFIRMASI: int = 5                # frame berturut sebelum tandai violation
-JARAK_HISTORY_FRAME: int = 5              # bandingkan centroid terbaru vs N frame lalu
+JARAK_HISTORY_FRAME: int = 3              # bandingkan centroid terbaru vs N frame lalu
 
 
 def cari_lane_id(centroid: Tuple[int, int], lanes: List[dict]) -> Optional[int]:
