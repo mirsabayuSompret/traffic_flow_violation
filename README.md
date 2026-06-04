@@ -1,4 +1,4 @@
-vegroup name :
+group name :
 
 - mirsa bayu prasetyo - 25/562355/PPA/07062
 - gregorius jovi
