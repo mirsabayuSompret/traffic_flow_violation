@@ -1,4 +1,4 @@
-group name :
+vegroup name :
 
 - mirsa bayu prasetyo
 - gregorius jovi
