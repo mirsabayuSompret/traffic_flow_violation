@@ -1,10 +1,10 @@
 group name :
 
-- mirsa bayu prasetyo - 25/562355/PPA/07062
-- gregorius jovi
-- nur ilham iskandar
-- m. amridhan mahdi
-- muhana
+- Mirsa Bayu Prasetyo
+- Gregorius Bugen Jovi Sitindaon
+- Nur Ilham Iskandar
+- M. Amridhan Mahdi
+- Muhana Fawwazy Ilyas
 
 # Title
 Traffic Flow Violation Detection Using Object Detection using Gaussian Mixture Model
